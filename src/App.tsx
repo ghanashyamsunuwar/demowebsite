@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2, Shield, Zap, Globe, Users } from 'lucide-react';
+import insta from './assets/insta.png'
+import whatsapp from './assets/whatsapp.png'
+import facebook from './assets/facebook.png'
 
 function App() {
   return (
@@ -88,10 +91,11 @@ function App() {
         >
           <h2 className="text-3xl font-bold mb-4">Trusted by Industry Leaders</h2>
           <div className="flex flex-wrap justify-center items-center gap-12 opacity-70">
-            <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=128&h=32&fit=crop&auto=format" alt="Company 1" className="h-8" />
-            <img src="https://images.unsplash.com/photo-1611162616305-c69b3037c7bb?w=128&h=32&fit=crop&auto=format" alt="Company 2" className="h-8" />
-            <img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=128&h=32&fit=crop&auto=format" alt="Company 3" className="h-8" />
+            <img src={facebook} alt="Company 1" className="h-14" />
+            <img src={insta} alt="Company 2" className="h-14" />
+            <img src={whatsapp} alt="Company 3" className="h-14" />
           </div>
+          
         </motion.div>
       </section>
 
